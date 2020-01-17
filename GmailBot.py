@@ -3,7 +3,7 @@ from datetime import datetime
 
 MEMES = []
 LET_LEAVE = 'yes'
-PASSWORD = 'SyWyvern' ##input('Password: ')
+PASSWORD = input('Password: ')
 
 def getMailingList(file1):
     mailingList = file1.read()
